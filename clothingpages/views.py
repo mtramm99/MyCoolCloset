@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def indexPageView(request) :
-    return HttpResponse('home page haha')
+    return HttpResponse('thomas owns the homepage')
 
 def closetPageView(request) :
     return HttpResponse('closet page lol')
