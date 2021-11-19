@@ -6,3 +6,6 @@ urlpatterns = [
     path('closet/', closetPageView, name='closet'),
     path('edit/', editPageView, name='edit'),
 ]
+
+
+# test change 
