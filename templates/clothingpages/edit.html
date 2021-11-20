@@ -62,6 +62,45 @@
                 </div>
             </div>
         </section>
+        <h3>Welcome to the real-time HTML editor!</h3>
+<p>Type HTML in the textarea above, and it will magically appear in the frame below.</p>
+<!-- begin form -->
+<form>
+        <fieldset style="width: 300px;">
+            <legend>Enter Your Item's Information</legend>
+             <label for="firstName">Owner First Name: <input type="text" id="firstName" required title="Enter the owners first name">
+            </label>
+            <br><br>
+            <label for="lastName">Owner Last Name: <input type="text" id="lastName" required title="Enter the owners last name">
+            </label>
+            <br><br>
+            <label for="listClothingType">Clothing Type:</label>
+            <select name="clothingType" id="clothingType">
+                <option value="Top">Top</option>
+                <option value="Pants">Pants</option>
+                <option value="Jacket">Jacket</option>
+                <option value="Shoe">Shoe</option>
+            </select>
+            <br><br>
+            <form action="">
+
+            <label for="materialType">Item Material: <input type="text" id="materialType" required title="Ex. Cotton-Poly, Leather, Wool, cotton.">
+            </label>
+            <br><br>
+            <label for="brandName">Brand: <input type="text" id="brandName" required title="Enter the item's brand Ex. J.Crew, Patagonia, Nike.">
+            </label>
+            <br><br>
+            <label for="ownerRating">Item Rating:</Label>
+            <input type="number" id="txtHousehold" name="txtHousehold" value="5" max="5" min="0" step="0.1"> 
+            <br><br>
+            <label>Add a memory of your item:</label><br>
+            <textarea name="memory" id="memory" cols="40" rows="3" maxlength="200" title="Add a special memory of your item."></textarea>
+            <br> <br>
+            <button type="button" onclick="displayData();">Submit</button>
+        </fieldset>
+            <br>
+</form>
+<!-- end form :) -->
         <footer class="footer text-faded text-center py-5">
             <div class="container"><p class="m-0 small">Copyright &copy; Your Website 2021</p></div>
         </footer>
