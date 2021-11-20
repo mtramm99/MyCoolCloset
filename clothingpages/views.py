@@ -3,11 +3,11 @@ from django.http import HttpResponse
 
 # Create your views here.
 def indexPageView(request) :
-    return HttpResponse('thomas owns the homepage')
+    return render(request, 'index.html')
 
 def closetPageView(request) :
-    return HttpResponse('closet page lol')
+    return render(request, 'display.html')
 
 def editPageView(request) :
-    return HttpResponse('edit page teehee')
+    return render(request, 'edit.html')
 
