@@ -10,3 +10,4 @@ def closetPageView(request) :
 
 def editPageView(request) :
     return HttpResponse('edit page teehee')
+
