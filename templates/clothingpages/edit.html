@@ -96,7 +96,7 @@
                 <option value="Shoe">Shoe</option>
             </select>
             <br><br>
-            <form action="">
+            <form name="editForm" action="{% url 'edit' %}" method="post">
 
                 <label for="materialType">Item Material: <input type="text" id="materialType" required
                         title="Ex. Cotton-Poly, Leather, Wool, cotton.">
